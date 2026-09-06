@@ -14,7 +14,7 @@ Running a personalization, targeting, ranking, LLM contextual review, or lookali
 - Refuse the model call on child-directed traffic (`regs.coppa == 1` under [COPPA](https://www.law.cornell.edu/cfr/text/16/part-312); [California CPRA 1798.120(c)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.120&lawCode=CIV); [DSA Art. 28](https://eur-lex.europa.eu/eli/reg/2022/2065/oj#art_28)).
 - Consent-scope the training corpus per [IAB Europe TCF](https://iabeurope.eu/transparency-consent-framework/). TC strings are personal data ([CJEU C-604/22](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0604)).
 - Honor real-time opt-outs at the feature-fetch step: [Sec-GPC](https://globalprivacycontrol.org/), `regs.gpp`, [ATT](https://developer.apple.com/documentation/apptrackingtransparency), [Android Ad ID reset](https://support.google.com/googleplay/answer/3405269).
-- Invalidate downstream materializations (segments, lookalike scores, Key/Value (KV) caches used by LLM serving stacks, adapter warm-pools) on opt-out.
+- Invalidate downstream materializations (segments, lookalike scores, key-value (KV) caches used by LLM serving stacks, adapter warm-pools) on opt-out.
 - Test for special-category inference from generic inputs ([GDPR Art. 9](https://eur-lex.europa.eu/eli/reg/2016/679/oj#art_9), [DSA Art. 26(3)](https://eur-lex.europa.eu/eli/reg/2022/2065/oj#art_26)).
 - Route high-stakes categories (employment, housing, credit) through a stricter path per [EU AI Act Art. 6](https://eur-lex.europa.eu/eli/reg/2024/1689/oj#art_6) plus [Annex III](https://eur-lex.europa.eu/eli/reg/2024/1689/oj#anx_III) point 4(a).
 
