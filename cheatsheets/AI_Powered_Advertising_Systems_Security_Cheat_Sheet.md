@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Modern advertising platforms make AI-driven financial decisions on every ad request. This cheat sheet is a concise checklist of ad-tech-specific controls that stop the AI itself from becoming the attack surface, across every ad-serving mode (programmatic, search, retail media, CTV/OTT which stands for Connected TV and Over-The-Top streaming ads, DOOH or Digital-Out-of-Home screens, direct-sold, native, mobile mediation) and both classical machine learning (ML) and generative AI (including large language models or LLMs, and vision-language models or VLMs) on the live serving path.
+Modern advertising platforms make AI-driven financial decisions on every ad request. This cheat sheet is a concise checklist of ad-tech-specific controls that stop the AI itself from becoming the attack surface, across every ad-serving mode (programmatic served via the [IAB Tech Lab OpenRTB specification](https://github.com/InteractiveAdvertisingBureau/openrtb2.x), search, retail media, CTV/OTT which stands for Connected TV and Over-The-Top streaming ads, DOOH or Digital-Out-of-Home screens, direct-sold, native, mobile mediation) and both classical machine learning (ML) and generative AI (including large language models or LLMs, and vision-language models or VLMs; generic LLM risks catalogued in the [OWASP LLM Top 10 (2025)](https://genai.owasp.org/llm-top-10/)) on the live serving path.
 
 Each section pairs the primary controls with a compact threat / defense / evidence / runtime-signal table so a reviewer can trace each threat to how it is stopped, verified, and monitored.
 
