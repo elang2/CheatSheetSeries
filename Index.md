@@ -178,6 +178,8 @@
 
 [Network Segmentation Cheat Sheet](cheatsheets/Network_Segmentation_Cheat_Sheet.md)
 
+[Nextjs Security Cheat Sheet](cheatsheets/Nextjs_Security_Cheat_Sheet.md)
+
 [NoSQL Security Cheat Sheet](cheatsheets/NoSQL_Security_Cheat_Sheet.md) ![Python](assets/Index_Python.svg)
 
 [NodeJS Docker Cheat Sheet](cheatsheets/NodeJS_Docker_Cheat_Sheet.md)
